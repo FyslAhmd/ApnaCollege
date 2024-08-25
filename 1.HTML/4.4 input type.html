@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+
+<body>
+    <form action="/server">
+        <!-- checkbox -->
+        <div>
+            <input type="checkbox" id="age1" name="age" value="18+">
+            <label for="age1">I'm 18+</label>
+        </div>
+        <div>
+            <input type="checkbox" id="age2" name="age" value="18-" checked>
+            <label for="age2">I'm under 18</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <hr>
+    <form action="/server">
+        <!-- radio button -->
+        <input type="radio" id="mango" name="fruit" value="mango">
+        <label for="mango">mango</label>
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple">apple</label>
+        <input type="radio" id="orange" name="fruit" value="orange">
+        <label for="orange">orange</label>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <hr>
+    <form action="/server">
+        <!-- drop down -->
+        Select Your Country
+        <select name="country" id="country">
+            <option value="ban">Bangladesh</option>
+            <option value="ind">India</option>
+            <option value="pak">Pakistan</option>
+            <option value="usa" selected>USA</option>
+            <option value="other">Other</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <hr>
+    <form action="/server">
+        <!-- range -->
+        <label for="volume">Volume </label>
+        <input type="range" id="volume" name="vol" min="0" max="10" step="2" value="6">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <hr>
+    <form action="/server">
+        <!-- text area -->
+        <label for="feeedback">Enter your feedback: </label>
+        <textarea name="feedback" id="feedback" cols="100" rows="3"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
