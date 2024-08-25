@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n) {
+    background-color: aqua;
+}
+div:nth-of-type(3n) {
+    background-color: blue;
+}
+#one {
+    transform: rotate(180deg);
+}
+#two {
+    transform: scale(0.5);
+}
+#three {
+    transform: translate(-220px,30px);
+}
+#four {
+    transform: skew(-20deg);
+}
+#five {
+    transform: rotate(30deg) scale(1.3) translateX(200px) skew(30deg);
+}

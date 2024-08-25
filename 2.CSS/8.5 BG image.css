@@ -1,0 +1,17 @@
+div {
+    height: 180px;
+    width: 500px;
+    color: white;
+    background-color: rgb(19, 145, 19);
+    margin: 10px auto;
+    background-image: url(8.5\ image.jpg);
+}
+.image1 {
+    background-size: contain;
+}
+.image2 {
+    background-size: cover;
+}
+.image3 {
+    background-size: auto;
+}

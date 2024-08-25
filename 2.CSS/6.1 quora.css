@@ -1,0 +1,79 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h3 {
+    color: rgb(174, 9, 9);
+}
+
+#login,#signup {
+    background-color: rgb(174, 9, 9);
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: white;
+}
+
+.post a {
+    color: white;
+    background-color: blue;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.upvote + button {
+    background-color: red;
+    color: black;
+}
+
+div>input {
+    background-color: rgb(172, 180, 178);
+}
+
+input[type="text"] {
+    color: green;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+span button:hover {
+    background-color: black;
+    color: white;
+}
+
+#login:active,#signup:active {
+    background-color: rgb(8, 138, 140);
+    color: black;
+}
+
+input[type="radio"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+.profile:nth-of-type(1n) {
+    background-color: rgb(0, 255, 255);
+}
+
+.profile:nth-of-type(2n) {
+    background-color: antiquewhite;
+}
+
+h1::first-letter {
+    color: green;
+}
+
+.line p::first-line {
+    color: red;
+    font-weight: bold;
+}
+.line p::selection {
+    color: black;
+    background-color: green;
+}

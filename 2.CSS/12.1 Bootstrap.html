@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="12.1 Bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar bg-primary sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Brand</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Shop</a>
+                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br>
+        <button class="btn btn-danger">Click Me</button>
+        <button class="btn btn-outline-success">Click Me</button>
+        <button class="btn btn-outline-info btn-lg">Click Me</button>
+        <button class="btn btn-dark btn-sm disabled">Click Me</button>
+        <a href="https://www.google.com/" class="btn btn-outline-primary">Anchor Tag</a>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Bootstrap</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, adipisci officia. Quidem ratione,
+            quaerat, enim tempora vitae distinctio commodi quos nesciunt dolorum quod adipisci voluptatem vero
+            dignissimos quae fugit facilis ad mollitia possimus minus impedit? Voluptatum animi temporibus dicta vel
+            nulla soluta iure consequuntur eaque praesentium eligendi, blanditiis totam itaque?</p>
+    </div>
+    <hr>
+    <div class="container">
+        <button class="btn btn-primary">Notification <span class="badge bg-secondary">10+</span></button>
+        <button class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+                <span class="visually-hidden">unread messages</span>
+            </span>
+        </button><br><br>
+        <button type="button" class="btn btn-primary position-relative">
+            Profile
+            <span
+                class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+            </span>
+        </button>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="alert alert-primary">This is a alart!</div>
+        <div class="alert alert-success">Finally! <a href="https://www.google.com/" class="alert-link">Result</a></div>
+        <div class="alert alert-success alert-dismissible">I got GPA5<button class="btn-close"
+                data-bs-dismiss="alert"></button></div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="btn-group">
+            <button class="btn btn-danger">One</button>
+            <button class="btn btn-success">Two</button>
+            <button class="btn btn-warning">Three</button>
+        </div>
+        <div class="btn-group">
+            <input type="checkbox" class="btn-check" name="checkbox" id="checkbox1">
+            <label class="btn btn-outline-success" for="checkbox1">checkbox 1</label>
+            <input type="checkbox" class="btn-check" name="checkbox" id="checkbox2">
+            <label class="btn btn-outline-success" for="checkbox2">checkbox 2</label>
+            <input type="checkbox" class="btn-check" name="checkbox" id="checkbox3">
+            <label class="btn btn-outline-success" for="checkbox3">checkbox 3</label>
+        </div>
+        <div class="btn-group btn-group-lg">
+            <input type="radio" class="btn-check" name="radio" id="radio1">
+            <label class="btn btn-outline-success" for="radio1">radio 1</label>
+            <input type="radio" class="btn-check" name="radio" id="radio2">
+            <label class="btn btn-outline-warning" for="radio2">radio 2</label>
+            <input type="radio" class="btn-check" name="radio" id="radio3">
+            <label class="btn btn-outline-danger" for="radio3">radio 3</label>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="11.1.1.jpg" alt="" class="card-img-top">
+            <div class="class-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nulla!
+                </p>
+                <a href="#" class="btn btn-primary">Go Somewhere</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

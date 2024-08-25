@@ -1,0 +1,28 @@
+div {
+    color: white;
+    line-height: 1.5;
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    border: 5px solid black;
+    border-bottom: 5px dotted red;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+h1 {
+    height: 50px;
+    width: 400px;
+    border: 2px dotted green;
+    padding-left:30px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+button {
+    padding: 10px 30px 10px 40px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 10px 0px 0px 100px;
+}

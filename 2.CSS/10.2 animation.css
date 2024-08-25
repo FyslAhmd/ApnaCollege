@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    width: 50%;
+}
+.container {
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    background-color: greenyellow;
+    font-size: 20px;
+    text-align: center;
+}
+.item1 {
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.item2 {
+    animation-name: bgColor;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.item3 {
+    /* animation-name: width;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: width 3s ease 0s infinite alternate;
+}
+
+@keyframes textAnimation {
+    from {font-size: 20px;}
+    to {font-size: 40px;}
+}
+@keyframes bgColor {
+    0% {
+        background-color: greenyellow;
+        color: black;
+    }
+    50% {
+        background-color: green;
+        color: white;
+    }
+    100% {
+        background-color: red;
+        color: black;
+    }
+}
+@keyframes width {
+    from {
+        width: 300px;
+        height: 100px;
+        font-size: 20px;
+    }
+    to {
+        width: 600px;
+        height: 200px;
+        font-size: 40px;
+    }
+}
