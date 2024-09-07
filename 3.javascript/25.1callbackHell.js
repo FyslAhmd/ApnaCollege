@@ -14,7 +14,6 @@ changeColor("red",1000,()=> {
         });
     });
 });
-
 function saveDB(data) {
     return new Promise((resolve,reject) => {
         let intSpeed = Math.floor(Math.random()*10+1);
