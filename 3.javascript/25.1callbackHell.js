@@ -24,4 +24,6 @@ function saveDB(data) {
         }
     });
 }
+
+
 saveDB("Faysal Ahmed");
