@@ -11,7 +11,6 @@ let student = {
 let validRev = JSON.stringify(student);
 console.log(validRev);
 
-
 // api call 
 let url = "https://catfact.ninja/fact";
 
