@@ -1,0 +1,9 @@
+basic command
+    ls -> show files
+    pwd -> where am i?
+    clear -> clear screen
+
+navigation
+    cd -> change directory
+    cd Desktop -> go to Desktop directory
+    cd .. -> back button
